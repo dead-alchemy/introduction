@@ -1,0 +1,25 @@
+.aboutme {
+	margin: 2rem;
+}
+
+.aboutme-grid {
+	display: grid;
+	grid-template-columns: 30vw 1fr;
+}
+
+.aboutme-picture > img {
+	width: 100%;
+	border-radius: 40px;
+	box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+}
+
+.aboutme-text {
+	margin-left: 2rem;
+}
+
+.aboutme-text__list {
+	font-size: 1.25rem;
+	line-height: 2rem;
+	text-decoration: none;
+	list-style: none;
+}
