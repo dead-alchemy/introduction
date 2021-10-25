@@ -17,6 +17,7 @@ const AboutMe = () => {
 						<li>Software Developer</li>
 						<li>Engaged</li>
 						<li>2 dogs and 2 cats</li>
+						<li>Love Star Wars</li>
 					</ul>
 				</div>
 			</div>

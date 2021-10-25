@@ -3,15 +3,14 @@ import {BrowserRouter as Router, Route} from "react-router-dom";
 
 import Navigation from "./components/Navigation/Navigation";
 import AboutMe from "./components/AboutMe/AboutMe";
+import Course from "./components/Course/Course";
 
 const Routes = () => {
 	return (
 		<Router>
 			<Navigation />
 			<Route exact path="/" component={AboutMe} />
-			{/* <Route exact path="/about" component={About} />
-			<Route exact path="/blog/:id" component={Entries} />
-			<Route exact path="/blog/" component={Blog} /> */}
+			<Route exact path="/course" component={Course} />
 		</Router>
 	);
 };
