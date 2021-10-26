@@ -1,0 +1,15 @@
+.course {
+}
+
+.header {
+	text-align: center;
+}
+
+.list {
+	margin: 2rem;
+	font-size: 1.25rem;
+	line-height: 2rem;
+	text-decoration: none;
+	list-style: none;
+	text-align: center;
+}

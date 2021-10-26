@@ -1,0 +1,12 @@
+.header {
+	text-align: center;
+}
+
+.list,
+li {
+	text-align: center;
+	font-size: 1.25rem;
+	line-height: 2rem;
+	text-decoration: none;
+	list-style: none;
+}

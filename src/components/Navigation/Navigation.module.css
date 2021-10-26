@@ -1,0 +1,21 @@
+.nav {
+	margin: 0.5rem;
+	font-weight: 600;
+	display: flex;
+	justify-content: center;
+}
+
+.nav__item,
+a {
+	padding: 0.5rem;
+	display: inline;
+	text-decoration: none;
+	list-style: none;
+
+	color: dodgerblue;
+}
+
+.active {
+	border: palevioletred solid 4px;
+	border-radius: 10px;
+}

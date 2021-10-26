@@ -1,0 +1,24 @@
+.header {
+	text-align: center;
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: 20vw 35vw 35vw;
+	column-gap: 2vw;
+	align-items: center;
+}
+
+.list {
+	margin: 2rem;
+	font-size: 1.25rem;
+	line-height: 2rem;
+	text-decoration: none;
+	list-style: none;
+	text-align: center;
+}
+
+.img {
+	width: 100%;
+	border-radius: 50px;
+}
