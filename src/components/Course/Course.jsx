@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./Course.module.css";
 
-const course = "Business Communications";
+const course = "Computer Architecture";
 
 const Course = () => {
 	return (
@@ -11,12 +11,8 @@ const Course = () => {
 			</div>
 			<div>
 				<ul className={styles.list}>
-					<li>Better Communiation issues across Business Units</li>
-					<li>
-						Ensure that others around me understand my blockers and
-						requirements
-					</li>
-					<li>Better craft emails and general communication</li>
+					<li>What goes on in the black box.</li>
+					<li>Better understand the tool I use every single day.</li>
 				</ul>
 			</div>
 		</section>
