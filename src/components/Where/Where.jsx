@@ -9,8 +9,13 @@ const Where = () => {
 			</div>
 			<div className={styles.list}>
 				<ul>
-					<li>dnicholas.me</li>
-					<li>https://github.com/dead-alchemy/</li>
+					<a href="https://dnicholas.me/">dnicholas.me</a>
+					<a href="https://github.com/dead-alchemy/">
+						github.com/dead-alchemy
+					</a>
+					<a href="https://www.linkedin.com/in/david-nicholas-820129225/">
+						linkedin.com/in/david-nicholas-820129225/
+					</a>
 				</ul>
 			</div>
 		</section>

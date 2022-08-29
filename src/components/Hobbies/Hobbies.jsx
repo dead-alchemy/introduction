@@ -31,14 +31,15 @@ const Hobbies = () => {
 				<div>
 					<img className={styles.img} src={camping} alt="" />
 				</div>
-				<div>
-					<img className={styles.img} src={accordion} alt="" />
-				</div>
+				<div></div>
 
 				<div className={styles.grid}>
 					<ul className={styles.list}>
 						<li>Accorion</li>
 					</ul>
+					<div>
+						<img className={styles.img} src={accordion} alt="" />
+					</div>
 				</div>
 			</div>
 		</section>
