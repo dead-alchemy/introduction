@@ -2,6 +2,7 @@
 	margin: 2rem;
 	display: flex;
 	justify-content: center;
+	max-height: calc(100vh - 2rem);
 }
 
 .aboutme-grid {
@@ -10,13 +11,14 @@
 }
 
 .aboutme-picture > img {
-	width: 100%;
+	width: 80%;
 	border-radius: 40px;
 	box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
 }
 
 .aboutme-text {
 	margin-left: 2rem;
+	text-align: center;
 }
 
 .aboutme-text__list {
@@ -24,4 +26,5 @@
 	line-height: 2rem;
 	text-decoration: none;
 	list-style: none;
+	padding: 0;
 }

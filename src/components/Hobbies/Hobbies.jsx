@@ -35,7 +35,7 @@ const Hobbies = () => {
 
 				<div className={styles.grid}>
 					<ul className={styles.list}>
-						<li>Accorion</li>
+						<li>Accordion</li>
 					</ul>
 					<div>
 						<img className={styles.img} src={accordion} alt="" />

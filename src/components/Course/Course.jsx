@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./Course.module.css";
 
-const course = "Computer Architecture";
+const course = "Java Programming II";
 
 const Course = () => {
 	return (
@@ -11,8 +11,13 @@ const Course = () => {
 			</div>
 			<div>
 				<ul className={styles.list}>
-					<li>What goes on in the black box.</li>
-					<li>Better understand the tool I use every single day.</li>
+					<li>
+						Better indepth understanding of Java and it's tools.
+					</li>
+					<li>
+						More about Java's built in and avaliable utils and
+						methods.
+					</li>
 				</ul>
 			</div>
 		</section>
